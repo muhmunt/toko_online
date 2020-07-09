@@ -1,0 +1,249 @@
+html,
+body{
+    /* width: 100%; */
+    overflow-x: hidden;
+    color: black;
+    font-family: 'avenir';
+    background-color: white;
+}
+
+a {
+    outline: none !important;
+    text-decoration: none;
+}
+
+.bg-prime{
+  background-color: #0099cc;
+}
+
+.hero{
+  background-size:cover;
+  position: relative;
+  margin-top: -50px;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-image: url('../images/content/bg-pel3.png');
+}
+
+.card-menu{
+  border-radius: 20px;
+  border: 0;
+  height: 150px;
+}
+
+.bg-1{
+  background-image: url('../images/content/burger.jpg');
+  width: auto;
+  background-size: cover;
+  background-position: center ;
+}
+
+.navbar{
+  z-index: 100000;
+}
+
+.head{
+  z-index: 100000;
+}
+
+.img-nav{
+  height:auto;
+  width:200px;
+}
+
+.menu-scroll .menu-fixed{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: #0099cc;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 9;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+
+.btn-head{
+  padding: 10px 20px 15px 20px;
+  border-radius: 0;
+}
+
+.btn-head:hover{
+  background-color: black;
+  color: white;
+}
+
+.search{
+  border: none;
+  background-color: rgb(243, 243, 243);
+  border-radius: 15px;
+  width: 300px;
+}
+
+.prepend{
+  border: none;
+  background-color: rgb(243, 243, 243);
+  border-radius: 15px;
+}
+
+.font-small{
+  font-size: 11px;
+}
+
+.jumbotron{
+  border-radius: 20px;
+}
+
+.text-orange{
+  color: orangered;
+}
+
+.text-soft-orange{
+  color: orange;
+}
+
+.active{
+  background-color: orange;
+}
+
+.btn-orange{
+  background-color: orangered;
+  color: white;
+  border-radius: 20px;
+}
+
+.btn-soft-orange{
+  background-color: orange;
+  padding: 20px 70px 20px 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.btn-soft-orange-sm{
+  background-color: orange;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.card-pill{
+  border-radius: 40px 40px 40px 40px;
+}
+
+.card-menu{
+  border-radius: 20px;
+  border: 0;
+  height: 150px;
+}
+
+.card-cart{
+  border-radius: 15px;
+  border: 0;
+  height: 50px;
+  width: 60px;
+}
+
+.card-time{
+  border-radius: 20px;
+  border: 0;
+}
+
+.bg-delivery{
+  background-image: url('../img/delivery.png');
+  width: auto;
+  background-size: cover;
+  background-position: center ;
+}
+
+.bg-pastel{
+  background-color: #FBFBF9;
+}
+
+.bg-dark-primary{
+  background-color: #503E9D;
+}
+
+.text-time{
+  margin-top: 96px;
+  margin-left: -20px;
+  background-color: rgb(223, 223, 223);
+  width: 100px;
+  border-radius: 0 15px 00;
+  padding: 5px;
+}
+
+
+h1,h2,h3{
+  font-weight: 800;
+}
+
+#intro{
+    /* margin-top: -80px; */
+    background-color: #FFF7ED;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+ 
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: underline;
+  }
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  @media (max-width: 1030px){
+    .visible-md{
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 360px){
+    .visible-sm{
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 360px){
+      .search-size{
+        width: 100px;
+      }
+  }

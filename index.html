@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm ">
+        <div class="container">
+            <a class="navbar-brand text-grey" href="">
+                Toko Online
+            </a>
+            <form class="form-inline my-2 my-lg-0 ml-5">
+                <div class="input-group mb-2 my-2 search-size" style="width: 500px;">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text prepend"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                    <input type="text" class="form-control mr-sm-2 search" id="inlineFormInputGroup" placeholder="Search">
+                </div>                           
+            </form>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav mr-auto">
+                    
+                </ul>
+
+                <!-- Right Side Of Navbar -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- Authentication Links -->
+                    <li class="nav-item">
+                        <div id="txt" class="nav-link"></div>
+                    </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href=""></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                User <span class="caret"></span>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="">Logout</a>                                
+
+                                <form id="logout-form" action="" method="POST" style="display: none;">
+                                    
+                                </form>
+                            </div>
+                        </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>    
+
+    <section class="hero">
+        <div class="hero-wave">
+            <div class="overlay" style="padding-top:250px">
+              <h1 class="text-center text-white text-head">Toko Online</h1>
+              <h5 class="text-center text-white"><p> Toko Online</p>
+              </h5>
+            </div>
+        </div>
+    </section>
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="font-weight-bold text-center">Toko Online</h2>
+            </div>
+            <div class="col-md-">
+                <button class="text-center btn btn-orange text-white float-left"><i class="fas fa-clock"></i> &nbsp; Delivery: <strong>Now</strong></button>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-9 mx-auto">
+                <!-- carousel -->
+                <div class="swiper-container mx-auto">
+                    <div class="swiper-wrapper p-2 mx-auto text-center">
+                        <!-- item -->
+                        <div class="swiper-slide">
+                            <div class="col-md-2 p-2">
+                                <a href="#" class="text-dark">
+                                    <div class="card card-pill border-0 shadow active" style="width: 80px;">
+                                        <div class="card mt-2 rounded-circle mx-auto" style="width: 50px;height: 50px;">
+                                            <img class="mx-auto mt-2" width="28px" src="https://img.icons8.com/ios/100/000000/restaurant-menu.png"/>
+                                        </div>
+                                    <div class="card-body mt-2">
+                                        <p class="card-text text-center font-weight-bold font-small">All</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-md-2 p-2">
+                                <a href="#" class="text-dark">
+                                    <div class="card card-pill border-0 shadow" style="width: 80px;">
+                                        <div class="card mt-2 rounded-circle mx-auto" style="width: 50px;height: 50px;">
+                                            <img class="mx-auto mt-2" width="28px" src="https://img.icons8.com/ios/100/000000/pizza.png"/>
+                                        </div>
+                                    <div class="card-body mt-2">
+                                        <p class="card-text text-center font-weight-bold font-small">Pizza</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="p-2">
+                                <a href="#" class="text-dark">
+                                    <div class="card card-pill border-0 shadow" style="width: 80px;">
+                                        <div class="card mt-2 rounded-circle mx-auto" style="width: 50px;height: 50px;">
+                                            <img class="mx-auto mt-2" width="28px" src="https://img.icons8.com/ios/100/000000/chinese-noodle.png"/>
+                                        </div>
+                                    <div class="card-body mt-2">
+                                        <p class="card-text text-center font-weight-bold font-small">Noodle</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="p-2">
+                                <a href="#" class="text-dark">
+                                    <div class="card card-pill border-0 shadow" style="width: 80px;">
+                                        <div class="card mt-2 rounded-circle mx-auto" style="width: 50px;height: 50px;">
+                                            <img class="mx-auto mt-2" width="28px" src="https://img.icons8.com/ios/100/000000/hamburger.png"/>
+                                        </div>
+                                    <div class="card-body mt-2">
+                                        <p class="card-text text-center font-weight-bold font-small">Burger</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="p-2">
+                                <a href="#" class="text-dark">
+                                    <div class="card card-pill border-0 shadow" style="width: 80px;">
+                                        <div class="card mt-2 rounded-circle mx-auto" style="width: 50px;height: 50px;">
+                                            <img class="mx-auto mt-2" width="28px" src="https://img.icons8.com/ios/100/000000/steak.png"/>
+                                        </div>
+                                    <div class="card-body mt-2">
+                                        <p class="card-text text-center font-weight-bold font-small">Steak</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="p-2">
+                                <a href="#" class="text-dark">
+                                    <div class="card card-pill border-0 shadow" style="width: 80px;">
+                                        <div class="card mt-2 rounded-circle mx-auto" style="width: 50px;height: 50px;">
+                                            <img class="mx-auto mt-2" width="28px" src="https://img.icons8.com/ios/100/000000/pineapple.png"/>
+                                        </div>
+                                    <div class="card-body mt-2">
+                                        <p class="card-text text-center font-weight-bold font-small">Fresh</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="p-2">
+                                <a href="#" class="text-dark">
+                                    <div class="card card-pill border-0 shadow" style="width: 80px;">
+                                        <div class="card mt-2 rounded-circle mx-auto" style="width: 50px;height: 50px;">
+                                            <img class="mx-auto mt-2" width="28px" src="https://img.icons8.com/ios/100/000000/sushi.png"/>
+                                        </div>
+                                    <div class="card-body mt-2">
+                                        <p class="card-text text-center font-weight-bold font-small">Sushi</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="p-2">
+                                <a href="#" class="text-dark">
+                                    <div class="card card-pill border-0 shadow" style="width: 80px;">
+                                        <div class="card mt-2 rounded-circle mx-auto" style="width: 50px;height: 50px;">
+                                            <img class="mx-auto mt-2" width="28px" src="https://img.icons8.com/ios/100/000000/rice-bowl.png"/>
+                                        </div>
+                                    <div class="card-body mt-2">
+                                        <p class="card-text text-center font-weight-bold font-small">Rice</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <!-- card -->
+        <div class="row mt-5">
+            <div class="col-md-4 p-1">
+                <div class="card card-menu bg-1">
+                    <div class="card-body">                              
+                      <p class="card-text float-left text-time">25 - 30 min</p>             
+                    </div>
+                </div>
+                <div class="card border-0">
+                  <div class="card-body">
+                    <h4>Bagel Story</h4>
+                    <p><i class="fas fa-star"></i> 4.7 &nbsp; <span class="text-muted">Deli&nbsp;Bagels&nbsp;$$</span></p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+                <a href="#" class="text-dark">
+                <div class="card card-menu bg-1">
+                    <div class="card-body">                              
+                      <p class="card-text float-left text-time">25 - 30 min</p>             
+                    </div>
+                </div>
+                <div class="card border-0">
+                  <div class="card-body">
+                    <h4>Bagel Story</h4>
+                    <p><i class="fas fa-star"></i> 4.7 &nbsp; <span class="text-muted">Deli&nbsp;Bagels&nbsp;$$</span></p>
+                  </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4 p-1">
+                <div class="card card-menu bg-1">
+                    <div class="card-body">                              
+                      <p class="card-text float-left text-time">25 - 30 min</p>             
+                    </div>
+                </div>
+                <div class="card border-0">
+                  <div class="card-body">
+                    <h4>Bagel Story</h4>
+                    <p><i class="fas fa-star"></i> 4.7 &nbsp; <span class="text-muted">Deli&nbsp;Bagels&nbsp;$$</span></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+    <div class="bg-primary">
+
+    
+    <div class="container mt-3 pb-5">
+        <footer class="mt-5">
+          <div class="row text-white pt-5">
+            <div class="col-12 col-md mb-4">
+              <h5 class="title">Toko Online</h5>
+              <small class="d-block mb-3">©2020</small>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Find Me</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="" class="text-white">Github</a>
+                </li>
+                <li>
+                  <a href="" class="text-white">Instagram</a>
+                </li>
+                <li>
+                  <a href="" class="text-white">Linkedin</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Contacts</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="" class="text-white">Email</a>
+                </li>
+                <li>
+                  <a href="" class="text-white">WhatsApp</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Toko Online</h5>
+              <h6>Bogor, Jawa barat, Indonesia, 16146</h6>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+    <script>
+        window.addEventListener("scroll", function(){
+            var navbar = $('.navbar');
+
+            if(window.pageYOffset > 0){
+                navbar.addClass('fixed-top animate__animated animate__fadeInDown');
+            }else{
+                navbar.removeClass('fixed-top animate__animated animate__fadeInDown');
+            }
+        })
+
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 10,
+          spaceBetween: 10,
+          loop: false,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 10,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 10,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 9,
+              spaceBetween: 50,
+            },
+          }
+        });
+    </script>
+</body>
+</html>
